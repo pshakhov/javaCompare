@@ -26,10 +26,10 @@ public final class ChainCollectionSorting {
 
     /**Создаем конструктор.
      */
-    private  ChainCollectionSorting() { };
+    private ChainCollectionSorting() { };
 
     /** Добавляем продукты и сортируем их.
-    /**@param args .
+     /**@param args .
      *@throws Exception .*/
     public static void main(final String[] args) {
         Comparator<Product> pcomp = new

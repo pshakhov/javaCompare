@@ -1,8 +1,11 @@
 import java.util.Comparator;
 
+/**Имплементируем.*/
 public class NameComparator implements Comparator<Product> {
+
     @Override
-    public int compare(Product o1, Product o2) {
+    /**Реализуем сортировку по имени.*/
+    public int compare(final Product o1, final Product o2) {
         return o1.getName().length() - o2.getName().length();
     }
 }
